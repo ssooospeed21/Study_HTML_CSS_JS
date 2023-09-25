@@ -1,5 +1,6 @@
 "use strict"
 let ai = 1
+
 /* 1 */
 
 function sumOfElements(array) {
@@ -14,7 +15,7 @@ const array = [1, 2, 3, 4, 5, 32874, 333, 675678, 555];
 const result = sumOfElements(array);
 console.log(result);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 2 */
 
@@ -32,7 +33,7 @@ const num = 12;
 const delit = findDelitel(num);
 console.log(delit);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 3 */
 
@@ -44,7 +45,7 @@ const string = "Пример строки ляляля";
 const symbol = stringToCharArray(string);
 console.log(symbol);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 4 */
 
@@ -56,7 +57,7 @@ const strrr = "Раком дед";
 const rev_str = reverseString(strrr);
 console.log(rev_str);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 5 */
 
@@ -75,15 +76,24 @@ const strring = "привет, мир!";
 const str_with_upper = capitalizeFirstLetter(strring);
 console.log(str_with_upper);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 6 */
 
 function capitalizeWords(inputString) {
     const words = inputString.split(' ');
-    const capitalizedWords = words.map(word => {
-        return word.charAt(0).toUpperCase() + word.slice(1);
-    });
+
+    const capitalizedWords = [];
+    for (const word of words) {
+        if (word.length > 0) {
+            const firstLetter = word[0].toUpperCase();
+            const restOfWord = word.slice(1);
+            const capitalizedWord = firstLetter + restOfWord;
+            capitalizedWords.push(capitalizedWord);
+        } else {
+            capitalizedWords.push(word);
+        }
+    }
 
     return capitalizedWords.join(' ');
 }
@@ -92,7 +102,7 @@ const stroing = "шла аня лесом обходила море";
 const str_with_upper_words = capitalizeWords(stroing);
 console.log(str_with_upper_words);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 7 */
 
@@ -108,23 +118,30 @@ const numba = 55;
 const massivee = fillArrayWithNumbers(numba);
 console.log(massivee);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 8 */
 
 function sumOfDigits(number) {
-    const digits = String(number).split('');
-    const ssum = digits.reduce((accumulator, currentValue) => {
-        return accumulator + parseInt(currentValue, 10);
-    }, 0);
-    return ssum;
+    const numStr = number.toString();
+
+    let total = 0;
+
+    for (let i = 0; i < numStr.length; i++) {
+        const digit = parseInt(numStr[i], 10);
+        if (!isNaN(digit)) {
+            total += digit;
+        }
+    }
+
+    return total;
 }
 
 const nummam = 12345;
 const summa = sumOfDigits(nummam);
 console.log(summa);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 9 */
 
@@ -143,7 +160,7 @@ if (isLeapYear(yeaa)) {
     console.log(`${yeaa} - не високосный год`);
 }
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 10 */
 
@@ -157,7 +174,7 @@ const secund = 1000000;
 const sutok = secondsToDays(secund);
 console.log(`${secund} секунд = ${sutok} суток`);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 11 */
 
@@ -174,7 +191,7 @@ const my_massive = [1, 2, 3, 4, 5, "papapepe", "456", null];
 const randomeelement = getRandomElementFromArray(my_massive);
 console.log(randomeelement);
 
-console.log("_____________ Следующее задание:", ai+=1, "_____________")
+console.log("_____________ Следующее задание:", ai += 1, "_____________")
 
 /* 12 */
 
