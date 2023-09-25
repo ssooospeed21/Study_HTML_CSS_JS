@@ -1,0 +1,74 @@
+.background-main1 {
+    position: relative;
+    background-color: #0A2640;
+    z-index: -2;
+
+}
+
+.background-ellipse1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.boldo-pad1 {
+    padding-left: 11px;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    height: 42px;
+    text-align: justify;
+}
+
+.margin-fix1 {
+    margin: 0;
+}
+
+.a-items1 {
+    align-items: center;
+}
+
+.header-pad1 {
+    padding: 56px 100px 64px;
+}
+
+.menu-pad1 {
+    padding-left: 599px;
+}
+
+.text-style1 {
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #69E6A6;
+    border: none;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 43px;
+}
+
+header a {
+    font-size: 16px;
+    color: white;
+}
+
+.img-header-fix1 {
+    padding-top: 10px;
+}
+
+.logo-wall-main-style1 {
+    padding-top: 56px;
+}

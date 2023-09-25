@@ -1,0 +1,49 @@
+.wrap {
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 20px;
+        margin: 0;
+}
+.flex-column {
+    flex-direction: column;
+}
+.line-oriental-footer {
+    margin: inherit;
+}
+.img-footer-padding {
+    margin-left: 238px;
+
+}
+
+
+.box-footer {
+    max-width: 199px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #207FF1;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 55px;
+}
+.back-call-pad {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer h1 {
+    font-size: 32px;
+}
+footer h2 {
+    font-size: 17px;
+    padding-top: 30px;
+    margin: 0;
+}
+footer p {
+    color: #373737;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 20px;
+}
