@@ -1,5 +1,5 @@
 "use strict"
-//1
+//Задача 1
 let input = document.querySelector('#myInput');
 let paragraph = document.querySelector('#myParagraph');
 
@@ -8,7 +8,7 @@ input.addEventListener('blur', function() {
     paragraph.textContent += inputValue;
 });
 
-//2
+//Задача 2
 let input1 = document.querySelector('#input1');
 let input2 = document.querySelector('#input2');
 let input3 = document.querySelector('#input3');
@@ -23,7 +23,7 @@ calculateButton.addEventListener('click', function() {
     resultParagraph.textContent = 'Сумма: ' + sum;
 });
 
-//3
+//Задача 3
 let numberInput = document.querySelector('#numberInput');
 let digitSumParagraph = document.querySelector('#digitSumParagraph');
 
@@ -38,7 +38,7 @@ numberInput.addEventListener('blur', function() {
     digitSumParagraph.textContent = 'Сумма цифр: ' + sum;
 });
 
-//4
+//Задача 4
 let numbersInput = document.querySelector('#numbersInput');
 let averageParagraph = document.querySelector('#averageParagraph');
 
@@ -55,7 +55,7 @@ numbersInput.addEventListener('blur', function() {
     averageParagraph.textContent = 'Среднее арифметическое: ' + average;
 });
 
-//5
+//Задача 5
 let fullNameInput = document.querySelector('#fullNameInput');
 let lastNameInput = document.querySelector('#lastNameInput');
 let firstNameInput = document.querySelector('#firstNameInput');
