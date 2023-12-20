@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        #days {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #days li {
+            width: 14%;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #days .today {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+<button id="prev">Назад</button>
+<button id="next">Вперед</button>
+<h1 id="monthAndYear"></h1>
+<ul id="days"></ul>
+<script src="script.js"></script>
+</body>
+</html>

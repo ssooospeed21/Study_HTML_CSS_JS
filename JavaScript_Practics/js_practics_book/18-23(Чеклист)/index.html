@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+
+        body {
+            text-align: center;
+        }
+
+        #input, #list {
+            display: inline-block;
+        }
+
+        #list {
+            padding: 0;
+            list-style-type: none;
+        }
+        #list span {
+            margin-right: 5px;
+        }
+        #list .remove, #list .mark {
+            color: blue;
+            cursor: pointer;
+        }
+        #list .remove:hover, #list .mark:hover {
+            text-decoration: underline;
+        }
+
+        #list .done .task {
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <label for="input"></label>
+    <input id="input"><br>
+    <ul id="list"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

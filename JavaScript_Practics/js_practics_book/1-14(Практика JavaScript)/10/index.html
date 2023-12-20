@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        #parent {
+            text-align: center;
+        }
+        #parent > * {
+            margin-bottom: 10px;
+        }
+
+        #timer {
+            font-size: 18px;
+        }
+        #text {
+            font-size: 17px;
+            font-style: italic;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        button:not(.active) {
+            display: none;
+        }
+
+        .good {
+            color: green;
+        }
+        .bad {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="timer">?</div>
+    <div id="text"></div>
+    <button id="start" class="active">узнать свою судьбу</button>
+    <button id="stop">получить предсказание</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

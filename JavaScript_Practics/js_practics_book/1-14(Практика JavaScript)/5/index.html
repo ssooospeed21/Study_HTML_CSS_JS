@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<style>
+    .capsLockOn {
+        color: red;
+    }
+</style>
+<body>
+
+<input type="text" id="screenType" placeholder="Тут будет ваш текст">
+<button onclick="show()"  id="screenKeyboardShow">Показать/Скрыть экранную клавиатуру</button>
+<div id="screenKeyboard" style="display: none">
+    <button class="key" onclick="addLetter('q')">q</button>
+    <button class="key" onclick="addLetter('w')">w</button>
+    <button class="key" onclick="addLetter('e')">e</button>
+    <button class="key" onclick="addLetter('r')">r</button>
+    <button class="key" onclick="addLetter('t')">t</button>
+    <button class="key" onclick="addLetter('y')">y</button>
+    <button class="key" onclick="addLetter('u')">u</button>
+    <button class="key" onclick="addLetter('i')">i</button>
+    <button class="key" onclick="addLetter('o')">o</button>
+    <button class="key" onclick="addLetter('p')">p</button>
+    <br>
+    <button class="key" onclick="addLetter('a')">a</button>
+    <button class="key" onclick="addLetter('s')">s</button>
+    <button class="key" onclick="addLetter('d')">d</button>
+    <button class="key" onclick="addLetter('f')">f</button>
+    <button class="key" onclick="addLetter('g')">g</button>
+    <button class="key" onclick="addLetter('h')">h</button>
+    <button class="key" onclick="addLetter('j')">j</button>
+    <button class="key" onclick="addLetter('k')">k</button>
+    <button class="key" onclick="addLetter('l')">l</button>
+    <br>
+    <button class="key" onclick="addLetter('z')">z</button>
+    <button class="key" onclick="addLetter('x')">x</button>
+    <button class="key" onclick="addLetter('c')">c</button>
+    <button class="key" onclick="addLetter('v')">v</button>
+    <button class="key" onclick="addLetter('b')">b</button>
+    <button class="key" onclick="addLetter('n')">n</button>
+    <button class="key" onclick="addLetter('m')">m</button>
+    <button class="key" onclick="addLetter('Backspace')">Backspace</button>
+    <button class="key" onclick="toggleCapsLock()">CapsLock</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

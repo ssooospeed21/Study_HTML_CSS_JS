@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        td {
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .hidden {
+            background-color: #ccc;
+        }
+        .found {
+            background-color: #0f0;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Игра Угадай ячейку</h1>
+<button onclick="startGame()">Начать игру</button>
+<p id="timer"></p>
+<table id="game"></table>
+<script src="script.js"></script>
+</body>
+</html>
