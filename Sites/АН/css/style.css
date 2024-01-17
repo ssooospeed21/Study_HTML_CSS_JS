@@ -1,0 +1,48 @@
+body{
+    background-color: #F1F6FC;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto;
+}
+.d_flex{
+    display: flex;
+}
+.text_width{
+    max-width: 70%;
+}
+.line_orient{
+    margin: inherit;
+}
+.full_page_placing{
+    margin: 100px 200px;
+}
+.rectangle{
+    height: 130px;
+    width: 332.5px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.rectangle_gap{
+    gap: 30px;
+}
+.rectangle_h1_color{
+    color: #207FF1;
+}
+.text_param{
+    padding: 5px 10px 30px 20px;
+}
+.span_size{
+    font-size: 16px;
+    color: black;
+}
+.p_text_color{
+    color: #767676;
+}
+.img_rectangle {
+    background-image: url("img/Rectangle 355.png");
+    width: 1920px;
+    height: 673px;
+}
