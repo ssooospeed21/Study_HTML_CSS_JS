@@ -1,0 +1,6 @@
+p.active {
+    color: green;
+}
+p:not(active){
+    color: red;
+}

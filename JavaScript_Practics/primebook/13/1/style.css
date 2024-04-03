@@ -1,0 +1,9 @@
+[data-type="success"] {
+    border-color: green;
+}
+[data-type="warning"] {
+    border-color: orange;
+}
+[data-type="error"] {
+    border-color: red;
+}
