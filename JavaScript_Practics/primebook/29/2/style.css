@@ -1,0 +1,14 @@
+#elem {
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #CFF5BF;
+    border: 25px solid #F0D7A1;
+    overflow: auto;
+    text-align: justify;
+}
+
+#button{
+    position: fixed;
+    bottom: 100px;
+}
