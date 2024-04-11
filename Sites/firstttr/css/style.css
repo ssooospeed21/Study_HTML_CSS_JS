@@ -1,0 +1,29 @@
+body
+{
+    font-family: "Montserrat Subrayada";
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 50px;
+}
+span {
+    color: #02AC8F;
+}
+.width{
+    max-width: 23%;
+}
+.text{
+    display: flex;
+}
+.ikons{
+    margin: 70px 70px;
+}
+.radius{
+    border-radius: 20px;
+}
+.block:hover {
+    font-size: 40px;
+    font-weight: 100;
+}
